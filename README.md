@@ -7,7 +7,7 @@
 * Изучить основные возможности и свойства LinearLayout
 * Изучить основные возможности и свойства ConstraintLayout
 
-## Задачи
+## Задачи и решения
 ### Задача 1.  LinearLayout
 #### Задание
 Создайте layout ресурсы для следующих макетов экрана с использованием [LinearLayout](https://developer.android.com/guide/topics/ui/layout/linear).
@@ -65,3 +65,6 @@
 Для решения данной задачи будем использовать зададим квадратный ConstraintLayour в центре экрана. Для удобной компановки объктов в нем будем использовать chains, и просто задавать соответствующие размеры dp.
 
 [Клик, и разметка откройся!](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_3th_var_14th.xml)
+
+## Заключение
+Мы ознакомились со средой разработки Android Studio, изучили осовные принципы верстки layout с использованием View и ViewGroup, изучили основные возможности и свойства LinearLayout и ConstraintLayout.
