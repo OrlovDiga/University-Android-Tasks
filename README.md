@@ -29,9 +29,14 @@
 
 Для отображения объектов в нужном нам виде воспользуемся LinearLayout c горизонтальным или вертикальным отображением. Так же нам понадобятся такие теги для объектов, как *android:layout_weight="1"*, при этом задав *android:layout_width="0dp"* или *android:layout_height="0dp"*. Также для одного из вариантов нам потребуется сделать отступ между объектами. Для этого воспользуемся тегом *android:layout_marginBottom="150dp"*
 
+Вот сами xml разметкки для данной задачи в соответствии с вариантом:
+[Первая разметка](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_1th_var_14th.xml)
+[Вторая разметка](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_1th_var_1th.xml)
+
 Мы убрали все возможные теги и для проверки этого, давайте попробуем удалить один из них. Например, при удаление _android:layout_height="0dp"_ из любого виджета у нас возникает ошибка 'layout_height' attribute should be defined'.
 
 Так же давайте решим одну из наших задач вторым способом - с помощью установки конкретных dp значений, для всех трех заданных объектов.
+[Соответсвующая разметка](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_1th_var_1th_version_2.xml)
 
 ### Задача 2. ConstraintLayout
 #### Задание
@@ -46,6 +51,10 @@
 
 Для решения данной задачи воспользуемся constraint_layout. Основные теги, которые должны придать нам нужную разметку: *app:layout_constraintHorizontal_weight="1"*, и в одном случае *android:layout_marginBottom="150dp"*. Остальное будет мало чем отличаться от предыдущего задания.
 
+Вот сами xml разметкки для данной задачи в соответствии с вариантом:
+[Первая разметка](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_2th_var_14_th.xml)
+[Вторая разметка](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_2th_var_1th.xml)
+
 ### Задача 3. ConstraintLayout
 Создайте layout ресурс для следующего макета экрана с использованием ConstraintLayout.
 
@@ -54,3 +63,5 @@
 ### Решение
 
 Для решения данной задачи будем использовать зададим квадратный ConstraintLayour в центре экрана. Для удобной компановки объктов в нем будем использовать chains, и просто задавать соответствующие размеры dp.
+
+[Клик, и разметка откройся!](https://github.com/OrlovDiga/University-Android-Tasks/blob/master/app/src/main/res/layout/lab_1th_task_3th_var_14th.xml)
