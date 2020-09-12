@@ -11,4 +11,9 @@
     <string name="togglebutton">ToggleButton</string>
     <string name="switch">Switch</string>
     <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="switch">Switch</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="checkbox">CheckBox</string>
 </resources>
